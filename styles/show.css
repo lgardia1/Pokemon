@@ -1,0 +1,21 @@
+.container {
+    margin-top: 2rem;
+}
+.pokemon-detail {
+    margin-bottom: 15px;         
+    padding: 10px;               
+    background-color: #fff;      
+    border: 1px solid #ddd;      
+    border-radius: 4px;         
+    width: 100%;                 
+}
+
+.pokemon-detail strong {
+    color: #333;                 
+    font-size: 1.3rem;           
+}
+
+.pokemon-detail span {
+    color: #666;                 
+    font-size: 1.3rem;              
+}

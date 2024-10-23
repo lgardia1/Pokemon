@@ -1,0 +1,33 @@
+
+
+.row {
+    font-size: 2rem;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+    transition: font-size .2s ease;
+}
+
+.row a:hover{
+    background-color: rgb(243, 159, 2);
+    font-size: 1.7rem;
+}
+main {
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container > *{
+    margin-left: 20%;
+}
+

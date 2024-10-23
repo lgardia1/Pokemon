@@ -1,0 +1,35 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4rem;
+} 
+
+th ,td{
+    border:1px solid black;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.814); 
+    color: white; 
+}
+
+
+.row a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+    transition: font-size .2s ease;
+}
+
+.row a:hover{
+    background-color: rgb(243, 159, 2);
+    font-size: 1.7rem;
+}
+

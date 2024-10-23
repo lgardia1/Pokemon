@@ -1,0 +1,51 @@
+
+.field {
+    width: 80%; 
+    margin: 1rem 0; 
+    display: flex; 
+    flex-direction: column;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0.5rem; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+}
+
+input.form-control,
+select {
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 1rem; 
+    transition: border-color 0.3s; 
+}
+
+
+
+input.form-control:focus,
+select:focus {
+    border-color: red; 
+    outline: none; 
+}
+
+button.btn {
+    margin-top: 1rem; 
+    padding: 0.75rem 1.5rem; 
+    background-color: red; 
+    color: white; 
+    font-size: 1.2rem; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button.btn:hover {
+    background-color: darkred; 
+}
