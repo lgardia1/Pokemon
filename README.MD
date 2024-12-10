@@ -1,6 +1,7 @@
 # Pokémon Management System
 
 Este proyecto es un sistema de gestión de Pokémon que permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos de Pokémon. El sistema está desarrollado en PHP y utiliza una base de datos MySQL para almacenar la información de los Pokémon.
+Puede añadir parametros como quieras a `database.sql` ya que se crea de manera dinamica. 
 
 ## Funcionalidades
 
@@ -12,7 +13,7 @@ Este proyecto es un sistema de gestión de Pokémon que permite a los usuarios r
 ## Instalación
 
 1. Clona el repositorio en tu máquina local.
-2. Importa el archivo `database.sql` en tu servidor MySQL para crear la base de datos y la tabla de Pokémon.
+2. Importa el archivo `database.sql` en tu servidor MySQL para crear la base de datos y la tabla de Pokémon. 
 3. Configura las credenciales de la base de datos en los archivos PHP correspondientes.
 4. Inicia un servidor web local y accede a `index.php` para comenzar a usar el sistema.
 
@@ -24,25 +25,25 @@ Este proyecto es un sistema de gestión de Pokémon que permite a los usuarios r
 <hr></hr>
 Aqui vemos la lista de todos los pokemon creados
 
-![Lista Pokemon](/pokemon/img/pokemon1.png)
+![Lista Pokemon](/img/1.PNG)
 
 <hr></hr>
 
 Esta es la vista del pokemon
 
-![Vista Pokemon](/pokemon/img/vistaPokemon.png)
+![Vista Pokemon](/img/2.PNG)
 
 <hr></hr>
 
 Aqui se crea un pokemon
 
-![Crear Pokemon](/pokemon/img/crearPokemon.png)
+![Crear Pokemon](/img/3.PNG)
 
 <hr></hr>
 
 Aqui se edita un pokemon
 
-![Editar Pokemon](/pokemon/img/editarPokemon.png)
+![Editar Pokemon](/img/4.PNG)
 
 
 ## Licencia
