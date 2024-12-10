@@ -120,6 +120,16 @@ $param =Connection::ExecuteSentence($showColumnsSQL);
             </div>
         </main>
     </section>
+    <script>
+    document.querySelector('tbody')?.addEventListener('click', (event) => {
+        console.log('asdasdas');
+        if (event.target.tagName === 'A' && event.target.classList.contains('borrar')) {
+            if (!confirm('¿Quieres eliminar el pokemon?')) {
+                event.preventDefault();
+            }
+        }
+    });
+    </script>
 </body>
 </html>
 <?php
